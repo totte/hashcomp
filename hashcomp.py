@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# TODO Add optional third argument - hasher. Default to sha512.
+# TODO Print error message explaining which file wasn't found.
+# TODO Use colour, columns... something to make the output more legible.
+
 import sys
 import hashlib
 
